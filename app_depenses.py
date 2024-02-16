@@ -21,6 +21,7 @@ df['Année'] = df['Année'].astype(str)
 
 # Initialize the app
 app = Dash(__name__)
+server = app.server
 
 font_style = {
     'font-family': 'Arial, sans-serif'
